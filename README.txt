@@ -1,8 +1,8 @@
 Eevee Project
 --------------------------------------------------------
 
-Eeevee è un BotIRC scritto in Python usando la LurkLib creato da 
+Eevee ï¿½ un BotIRC scritto in Python usando la LurkLib creato da 
 JustHvost e Alfateam123.
-Al momento non si avrà un up totale su GitHub in quanto si sta
+Al momento non si avrï¿½ un up totale su GitHub in quanto si sta
 ancora codando la prima versione, ma una primissima (e inutile) release
-si avrà entro domenica.
+si avrï¿½ entro domenica.
