@@ -41,7 +41,7 @@ def hi():
                   
 ircsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 ircsock.connect((server, 6667)) 
-ircsock.send("USER "+ botnick +" "+ botnick +" "+ botnick +" :This bot is a result of a tutoral covered on http://shellium.org/wiki.\n") # user authentication
+ircsock.send("USER "+ botnick +" "+ botnick +" "+ botnick +" :lol\n") 
 ircsock.send("NICK "+ botnick +"\n") 
 
 joinchan(channel) 
