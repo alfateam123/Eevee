@@ -50,12 +50,10 @@ while 1:
   ircmsg = ircsock.recv(2048)
   ircmsg = ircmsg.strip('\n\r') 
   print(ircmsg) 
-  
- 
 	 
   if ircmsg.find(":!fb ") != -1: 
     fb()
-	if ircmsg.find(":ciao "+ botnick): 
+  if ircmsg.find(":ciao "+ botnick): 
     hi()
 
   if ircmsg.find("PING :") != -1: 
